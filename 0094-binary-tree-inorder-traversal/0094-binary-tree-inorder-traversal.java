@@ -1,32 +1,31 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    class MakeTree {
-        TreeNode node;
-        boolean flag;
-        MakeTree(TreeNode node,boolean flag) {
-            this.node = node;
-            this.flag = flag;
+    private List<Integer> treeTraverse(TreeNode root, List<Integer> li) {
+        if (root == null) {
+            return li;
         }
-    }
-
-    public void inorder(TreeNode root, List<Integer> list) {
-        Stack<MakeTree> st = new Stack<>();
-        st.push(new MakeTree(root,false));
-        while(!st.isEmpty()) {
-            MakeTree currNode = st.pop();
-            if(!currNode.flag) {
-                if(currNode.node.right != null) st.push(new MakeTree(currNode.node.right,false));
-                st.push(new MakeTree(currNode.node,true));
-                if(currNode.node.left != null) st.push(new MakeTree(currNode.node.left,false));
-            } else {
-                list.add(currNode.node.val);
-            }
-        }
+        treeTraverse(root.left, li);
+        li.add(root.val);
+        treeTraverse(root.right, li);
+        return li;
     }
 
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if(root == null) return list;
-        inorder(root,list);  
-        return list;
+        List<Integer> li = new ArrayList<>();
+        return treeTraverse(root, li);
     }
 }
