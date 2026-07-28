@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0070-climbing-stairs) |
 | [0171-excel-sheet-column-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0171-excel-sheet-column-number) |
+| [0202-happy-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0202-happy-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0202-happy-number) |
 ## String
 |  |
 | ------- |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0160-intersection-of-two-linked-lists) |
+| [0202-happy-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0202-happy-number) |
 ## String Matching
 |  |
 | ------- |
