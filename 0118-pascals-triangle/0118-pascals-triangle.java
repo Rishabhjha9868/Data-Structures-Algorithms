@@ -3,7 +3,6 @@ class Solution {
         List<List<Integer>> result = new ArrayList<>();
         if(numRows == 0) return result;
         List<Integer> dp = new ArrayList<>();
-        dp.add(1);
         for(int i=0; i<numRows; i++) {
             List<Integer> list = new ArrayList<>();
             for(int j=0; j<=i; j++) {
