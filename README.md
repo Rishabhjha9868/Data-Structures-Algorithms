@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0136-single-number) |
 ## Trie
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0067-add-binary) |
+| [0136-single-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0136-single-number) |
 ## Simulation
 |  |
 | ------- |
