@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0202-happy-number) |
 | [0217-contains-duplicate](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0125-valid-palindrome) |
 | [0171-excel-sheet-column-number](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0171-excel-sheet-column-number) |
+| [0242-valid-anagram](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 ## Array
 |  |
 | ------- |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0242-valid-anagram) |
 ## Tree
 |  |
 | ------- |
