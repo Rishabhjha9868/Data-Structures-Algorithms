@@ -1,11 +1,9 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        Arrays.sort(nums);
-        for(int i=1; i<nums.length; i= i+2) {
-            if(nums[i]!=nums[i-1]){
-                return nums[i-1];
-            } 
+        int result = 0;
+        for(int num : nums) {
+            result ^= num;
         }
-        return nums[nums.length-1];
+        return result;
     }
 }
