@@ -11,41 +11,36 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        ListNode temp1 = headA;
+        ListNode temp2 = headB;
         int size1 = 0;
         int size2 = 0;
-        ListNode temp = headA;
-        while(temp != null){
-            temp = temp.next;
-            size1++;
-        }
-        ListNode num = headB;
-        while(num != null){
-            num = num.next;
-            size2++;
-        }
-        if(size1 == size2){
-            while(headA != headB){
-                headA = headA.next;
-                headB = headB.next;
-            } return headA;
-        } else if(size1 < size2){
-            while(size1 != size2){
-                headB = headB.next;
-                size2--;
-            }
-             while(headA != headB){
-                headA = headA.next;
-                headB = headB.next;
-            } return headA;
-        } else {
-             while(size1 != size2){
-                headA = headA.next;
-                size1--;
-            }
-             while(headA != headB){
-                headA = headA.next;
-                headB = headB.next;
-            } return headA;
-        } 
+       while(temp1!=null) {
+        temp1 = temp1.next;
+        size1++;
+       } 
+        while(temp2!=null) {
+        temp2 = temp2.next;
+        size2++;
+       } 
+       temp1 = headA;
+       temp2 = headB;
+       int count = 0;
+       if(size1>size2) {
+         count = size1-size2;
+         for(int i=0; i<count; i++) {
+        temp1 = temp1.next;
+       }
+       } else {
+          count = size2-size1;
+          for(int i=0; i<count; i++) {
+        temp2 = temp2.next;
+       }
+       }
+       while(temp1 != temp2) {
+        temp1 = temp1.next;
+        temp2 = temp2.next;
+       }
+       return temp2;      
     }
 }
