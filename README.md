@@ -232,4 +232,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0003-longest-substring-without-repeating-characters) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Rishabhjha9868/Data-Structures-Algorithms/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
